@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "./ui/button";
-import banner from "@/app/assets/images/banner.png"
+import banner from "@/assets/images/banner.png"
 
 export default function Hero() {
 	return (

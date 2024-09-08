@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
 	return (
-		<footer className="p-6 md:py-12 w-full bg-accent-foreground">
+		<footer className="p-6 md:py-12 w-full bg-accent text-accent-foreground">
 			<div className="container max-w-7xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 justify-items-center gap-8 text-sm">
 				<FooterColumn
 					title="Imagely"
@@ -24,8 +24,10 @@ export default function Footer() {
 					title="Connect"
 					links={["Twitter", "LinkedIn", "Instagram", "Discord"]}
 				/>
-      </div>
-      <p className="text-xs text-center pt-5">Copyright &copy; {new Date().getFullYear()} - All rights reserved</p>
+			</div>
+			<p className="text-xs text-center pt-5">
+				Copyright &copy; {new Date().getFullYear()} - All rights reserved
+			</p>
 		</footer>
 	);
 }
